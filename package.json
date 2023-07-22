@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:3000",
+  "proxy": "http://localhost:5000",
   "homepage": "http://faizmhf666.github.io/portfolio-with-domain",
   "name": "my-app",
   "version": "0.1.0",

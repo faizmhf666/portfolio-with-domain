@@ -21,8 +21,8 @@ function App() {
       let yprev=0;
       window.addEventListener("mousemove", function(dets){
           clearTimeout(timer);
-          xscale=gsap.utils.clamp(0.8,1.2,dets.clientX - xprev);
-          yscale=gsap.utils.clamp(0.8,1.2,dets.clientY - yprev);
+          xscale=gsap.utils.clamp(0.9,1.5,dets.clientX - xprev);
+          yscale=gsap.utils.clamp(0.5,1.5,dets.clientY - yprev);
           
           xprev=dets.clientX;
           yprev=dets.clientY;

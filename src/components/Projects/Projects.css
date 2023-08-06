@@ -114,25 +114,37 @@
     .thumbnail {
       width: 180px;
       height: 60px;
+      align-self: center;
+      margin-left:38px
     }
     .project-btn {
       display: flex;
-      flex-direction: column-reverse;
       justify-content: space-between;
       padding: 0.5rem 0;
-      margin: 1rem;
+      margin-right: 28px;
     }
     .button {
       margin: 1rem;
     }
     .project-title {
-      width: 140px;
+      width: 240px;
     }
     .project-main-heading {
       margin: 1rem;
     }
     .p-icons {
       font-size: 18px;
+    }
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .container-main-projects{
+      width:100vw;
+      min-width: 100vw;
     }
   }
   

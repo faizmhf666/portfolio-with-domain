@@ -13,14 +13,14 @@ const About = () => {
         <div className="left">
           <h1>Hello!</h1>
           <p>
-            Hello, I'm M.H. Faiz, an automobile engineer Graduate and an
+            I'm M.H. Faiz, an automobile engineer Graduate and an
             aspiring web-developer. My growing fascination with the creative
             aspects of web development led me to embark on a journey of
             self-learning and exploration. I am passionate about crafting
             visually appealing and user-friendly websites that leave a lasting
             impact.
           </p>
-          <Link to="/MyPortfolio/contact">
+          <Link to="/contact">
             <button className="btn btn-1" type="button">
               Contact Me
             </button>

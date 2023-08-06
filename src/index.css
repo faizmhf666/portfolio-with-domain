@@ -41,3 +41,17 @@ ul {
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
+#minicircle{
+  width:10px;
+  height:10px;
+  background-color: rgb(248, 217, 15);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 99999;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+}
+@media screen and (max-width:920px){
+  #minicircle{
+    display: none;
+  }
+}

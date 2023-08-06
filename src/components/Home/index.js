@@ -1,27 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LocomotiveScroll from 'locomotive-scroll';
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import "./HomeContent.css";
+// import 'locomotive-scroll.css'
 
 const Home = () => {
+  const scroll = new LocomotiveScroll();
   return (
     <>
       <Navbar />
-      <div className="home-main">
-        <div className="bg-mask">
+      <div className="home-main" id="main" data-scroll-container>
+        <div className="bg-mask" data-scroll-section>
           <img
             className="home-image"
             src="https://res.cloudinary.com/dvu0weqay/image/upload/v1689584689/pexels-kevin-ku-577585_yharnd.jpg"
             alt="WorkDesk"
           />
         </div>
-        <div className="content">
-          <p>Hi, I am </p>
-          <h1>MH Faiz</h1>
-          <p> I am a React Developer</p>
-          <div>
-            <Link
+        <div className="content" data-scroll-section>
+          <p data-scroll>Hi, I am </p>
+          <h1 data-scroll>MH Faiz</h1>
+          <p data-scroll>  I am a React Developer</p>
+          <div data-scroll-section>
+            <Link data-scroll
               to="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Faiz_2023-07-11-121214.pdf"
               target="_blank"
             >
@@ -29,7 +32,7 @@ const Home = () => {
                 Get Resume
               </button>
             </Link>
-            <Link to="/Contact">
+            <Link to="/Contact" data-scroll>
               <button type="button" className="btn btn-2">
                 Contact
               </button>

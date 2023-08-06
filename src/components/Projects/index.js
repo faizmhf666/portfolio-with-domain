@@ -12,7 +12,7 @@ import "./Projects.css";
 
 const data = [
   {
-    demo: "https://faizmhf666.github.io/MyPortfolio/",
+    demo: "https://www.faizportfolio.co.in",
     title: "Portfolio 1.0",
     thumbnail:
       "https://res.cloudinary.com/dvu0weqay/image/upload/v1689959067/Screenshot_82_s8sohv.png",

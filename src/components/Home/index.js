@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LocomotiveScroll from 'locomotive-scroll';
+// import LocomotiveScroll from 'locomotive-scroll';
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import "./HomeContent.css";
 // import 'locomotive-scroll.css'
 
 const Home = () => {
-  const scroll = new LocomotiveScroll();
+
   return (
     <>
       <Navbar />
@@ -28,12 +28,12 @@ const Home = () => {
               to="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Faiz_2023-07-11-121214.pdf"
               target="_blank"
             >
-              <button type="button" className="btn btn-1">
+              <button type="button" className="btn btn-1 arrow">
                 Get Resume
               </button>
             </Link>
             <Link to="/Contact" data-scroll>
-              <button type="button" className="btn btn-2">
+              <button type="button" className="btn btn-2 arrow">
                 Contact
               </button>
             </Link>

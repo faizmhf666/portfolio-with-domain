@@ -229,7 +229,7 @@ const Projects = () => {
                     />
                     <div className="project-btn">
                       <a
-                        className="btn btn-1 button"
+                        className="btn btn-1 button arrow"
                         href={each.demo}
                         target="_blank"
                         rel="noreferrer"
@@ -237,7 +237,7 @@ const Projects = () => {
                         Demo
                       </a>
                       <a
-                        className="btn btn-1 button"
+                        className="btn btn-2 button arrow"
                         href="https://github.com/faizmhf666?tab=repositories"
                         target="_blank"
                         rel="noreferrer"
@@ -273,7 +273,7 @@ const Projects = () => {
                     />
                     <div className="project-btn">
                       <a
-                        className="btn btn-1 button"
+                        className="btn btn-1 button arrow"
                         href={each.demo}
                         target="_blank"
                         rel="noreferrer"
@@ -281,7 +281,7 @@ const Projects = () => {
                         Demo
                       </a>
                       <a
-                        className="btn btn-1 button"
+                        className="btn btn-2 button arrow"
                         href="https://github.com/faizmhf666?tab=repositories"
                         target="_blank"
                         rel="noreferrer"

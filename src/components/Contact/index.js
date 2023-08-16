@@ -70,7 +70,7 @@ const Contact = () => {
               className="input-box"
             />
           </div>
-          <button type="submit" className="btn btn-1">
+          <button type="submit" className="btn btn-1 arrow">
             Send
           </button>
         </form>

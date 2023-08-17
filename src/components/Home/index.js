@@ -117,7 +117,7 @@ const Home = () => {
           </button>
           <button
            type="button"
-           className="trigger-button btn btn-2 arrow"
+           className="trigger-button btn btn-1 arrow"
            onClick={() => close()}
          >
            Close

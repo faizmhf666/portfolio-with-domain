@@ -25,7 +25,7 @@ const Home = () => {
           <p data-scroll>  I am a React Developer</p>
           <div data-scroll-section>
             <Link data-scroll
-              to="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Faiz_2023-07-11-121214.pdf"
+              to="https://drive.google.com/file/d/1aUKILKDO4abWBkUdSdJT3l_Rq4umqxam/view?usp=sharing"
               target="_blank"
             >
               <button type="button" className="btn btn-1 arrow">

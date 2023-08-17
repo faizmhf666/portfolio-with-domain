@@ -62,4 +62,22 @@
       font-size: 3rem;
     }
   }
+
+  .home-form{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+    background-size: cover;
+  }
+  .home-form-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   

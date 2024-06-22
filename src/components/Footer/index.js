@@ -32,7 +32,7 @@ import {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              <h4>faizmhf666@outlook.com</h4>
+              <h4>developerfaizin@gmail.com</h4>
             </div>
           </div>
           <div className="left">
@@ -79,7 +79,7 @@ import {
               </a>
   
               <a
-                href="https://www.instagram.com/zack.the.jack.1/"
+                href="https://www.instagram.com/mhf1997_/"
                 target="_blank"
                 rel="noreferrer"
               >
